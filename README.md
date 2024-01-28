@@ -8,54 +8,9 @@ El proyecto desarrollado a continuación es un juego de Black Jack para explorar
 
 ## Requerimientos
 
-- Node 20.9.0 LTS
-
-## Instalación del proyecto
-
-Para instalar el proyecto siga los siguientes pasos
-
-Instalar módulos o dependencias
-
-```
-npm install
-```
+- Navegador con soporte de JS
 
 ## Ejecución del proyecto
 
-Para ejecutar el proyecto se deben seguir los siguientes pasos:
+Para ejecutar el juego abra el archivo ``index.html`` en su navegador
 
-1. Clonar el archivo `.env.template` a `.env`
-2. Configurar variables de entorno
-
-```
-# Server port
-PORT=3000
-
-# Database
-MONGO_URL=
-MONGO_DB_NAME=
-
-# JWT
-JWT_SEED=semilla-para-firmar-jwt
-```
-
-3. Levantar las bases de datos
-
-```
-docker compose up -d
-
-```
-
-4. Correr el proyecto usando alguno de los siguientes scripts según el entorno
-
-Ejecutar entorno de desarrollo
-
-```
-npm run dev
-```
-
-Ejecutar entorno de producción
-
-```
-npm start
-```
